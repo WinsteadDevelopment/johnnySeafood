@@ -1,5 +1,5 @@
 {
-  "name": "johnny",
+  "name": "johnnysseafood",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,7 +18,7 @@
     "url": "git+https://github.com/PrestonWinstead/johnnySeafood.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Winstead Development",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/PrestonWinstead/johnnySeafood/issues"
