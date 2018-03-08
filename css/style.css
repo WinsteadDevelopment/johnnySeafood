@@ -4,6 +4,87 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+
+
+#myImg {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#myImg:hover { opacity: 0.7; }
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+	from { transform: scale(0) }
+	to { transform: scale(1) }
+}
+
+/* The Close Button */
+.close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and(max-width: 700px){
+.modal-content {
+		width: 100%;
+	}
+}
+
 body a {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -513,7 +594,7 @@ i.fa.fa-twitter,i.fa.fa-facebook,i.fa.fa-google-plus,i.fa.fa-dribbble{
 /*-- //copyright --*/
 /*--Shortcodes--*/
 .bg-img{
-    background: url(../images/bg.jpg) no-repeat 0px -429px;
+    background: url(../images/crawfish.jpg) no-repeat 0px -429px;
     background-size: cover;
 }
 .code-banner{
@@ -1200,7 +1281,6 @@ h2.typoh2{
 }
 .address-grid {
   width: 80%;
-  margin: 0 auto;
 }
 .address-grid h5 {
     font-size: 1em;
@@ -1208,7 +1288,7 @@ h2.typoh2{
     color: #473B3B;
     text-align: center;
     line-height: 1.5em;
-    font-weight: 600;
+	font-weight: 600;
 }
 .address-grid h5 span {
   display: block;
@@ -1562,7 +1642,7 @@ h2.typoh2{
 }
 @media (max-width:800px){
 	.bg-img {
-		background: url(../images/bg.jpg) no-repeat 0px -91px;
+		background: url(../images/crawfish.jpg) no-repeat 0px -91px;
 		background-size: cover;
 	}
 }
@@ -1903,7 +1983,7 @@ h2.typoh2{
 		width: 80%;
 	}
 	.bg-img {
-		background: url(../images/bg.jpg) no-repeat 0px -83px;
+		background: url(../images/crawfish.jpg) no-repeat 0px -83px;
 		background-size: cover;
 	}
 	.agileits-caption h4 {
@@ -2076,7 +2156,7 @@ h2.typoh2{
 		padding: 1em 0 1em;
 	}
 	.bg-img {
-		background: url(../images/bg.jpg) no-repeat 0px -64px;
+		background: url(../images/crawfish.jpg) no-repeat 0px -64px;
 		background-size: cover;
 	}
 	.offers-left-heading h4 {

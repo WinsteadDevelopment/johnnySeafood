@@ -50,9 +50,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<ul class="nav navbar-nav">
 									<li><a class="active" href="index.html">Home</a></li>
 									<li><a href="about.html">About</a></li>
-									<li><a href="menu.html">Menu</a></li>
-									<li><a href="codes.html">Codes</a></li>	
-									<li><a href="news.html">News & Events</a></li>
+									<li id="menuLink"><a>Menu</a></li>
 									<li><a href="contact.html">Contact</a></li>
 									<div class="clearfix"> </div>
 								</ul>	
@@ -68,20 +66,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="banner-grads">
 					<div class="col-md-4 banner-grad">
 						<div class="banner-grad-img">
-							<img src="images/shrimpPoboy.png" alt="" />
-							<h4>Our Food</h4>
+							<a href="#food">
+								<img src="images/shrimpPoboy.png" alt="" />
+								<h4>Our Food</h4>
+							</a>
 						</div>
 					</div>
 					<div class="col-md-4 banner-grad">
 						<div class="banner-grad-img">
-							<img src="images/menuPicture.png" alt="" />
+							<img id="foodMenu" src="images/menuPicture.png" alt="" />
 							<h4>Our Menu</h4>
 						</div>
 					</div>
 					<div class="col-md-4 banner-grad">
 						<div class="banner-grad-img">
-							<img src="images/threeGenerationsCropped.png" alt="" />
-							<h4>Our Family</h4>
+							<a href="/about.html">
+								<img src="images/threeGenerationsCropped.png" alt="" />
+								<h4>Our Family</h4>
+							</a>
 						</div>
 					</div>
 					<div class="clearfix"> </div>
@@ -90,17 +92,71 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<!-- //banner -->
 	</div>
+
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+	
+		<!-- The Close Button -->
+		<span class="close">&times;</span>
+	
+		<!-- Modal Content (The Image) -->
+		<img class="modal-content" id="img01">
+	
+		<!-- Modal Caption (Image Text) -->
+		<div id="caption"></div>
+	</div>
+
+	<script>
+		// Get the modal
+			var modal = document.getElementById('myModal');
+
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img = document.getElementById('foodMenu');
+			var modalImg = document.getElementById("img01");
+			var captionText = document.getElementById("caption");
+			img.onclick = function () {
+				modal.style.display = "block";
+				modalImg.src = "./images/menuPicture.jpg";
+				captionText.innerHTML = "Our menu";
+			}
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function () {
+				modal.style.display = "none";
+			}
+
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var menuLink = document.getElementById('menuLink');
+			var modalImg = document.getElementById("img01");
+			var captionText = document.getElementById("caption");
+			menuLink.onclick = function () {
+				modal.style.display = "block";
+				modalImg.src = "./images/menuPicture.jpg";
+				captionText.innerHTML = "Our menu";
+			}
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function () {
+				modal.style.display = "none";
+			}
+	</script>
+	
 	<!-- special -->
-	<div class="special">
+	<div class="special" id="food">
 		<div class="container">
 			<div class="special-heading">
-				<h3>Today Specials</h3>
+				<h3>Our Food</h3>
 			</div>
 			<div class="special-grids">
 				<div class="col-md-4 w3l-special-grid">
 					<div class="col-md-6 w3ls-special-img">
 						<div class="w3ls-special-text effect-1">
-							<h4>Aliquam</h4>
 						</div>
 					</div>
 					<div class="col-md-6 agileits-special-info">
@@ -112,7 +168,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-4 w3l-special-grid">
 					<div class="col-md-6 w3ls-special-img wthree-img">
 						<div class="w3ls-special-text effect-1">
-							<h4>Nullam</h4>
 						</div>
 					</div>
 					<div class="col-md-6 agileits-special-info">
@@ -124,11 +179,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-4 w3l-special-grid">
 					<div class="col-md-6 w3ls-special-img wthree-img1">
 						<div class="w3ls-special-text effect-1">
-							<h4>Maecenas</h4>
 						</div>
 					</div>
 					<div class="col-md-6 agileits-special-info">
-						<h4>Maecenas</h4>
 						<p>Donec nibh enim, cursus sodales laoreet sit amet, tincidunt</p>
 					</div>
 					<div class="clearfix"> </div>
@@ -140,7 +193,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-md-6 w3ls-special-img wthree-img2">
 						<div class="w3ls-special-text effect-1">
-							<h4>Aliquam</h4>
 						</div>
 					</div>
 					<div class="clearfix"> </div>
@@ -152,7 +204,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-md-6 w3ls-special-img wthree-img3">
 						<div class="w3ls-special-text effect-1">
-							<h4>Nullam</h4>
 						</div>
 					</div>
 					<div class="clearfix"> </div>
@@ -164,7 +215,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-md-6 w3ls-special-img wthree-img4">
 						<div class="w3ls-special-text effect-1">
-							<h4>Maecenas</h4>
 						</div>
 					</div>
 					<div class="clearfix"> </div>
@@ -175,7 +225,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //special -->
 	<!-- features -->
-	<div class="features">
+	<!-- <div class="features">
 		<div class="container">
 			<div class="features-heading">
 				<h3>Our Features</h3>
@@ -237,10 +287,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- //features -->
 	<!-- customer -->
-	<div class="customer">
+	<!-- <div class="customer">
 		<div class="container">
 			<div class="customer-heading">
 				<h3>What Our Customers are Saying</h3>
@@ -276,7 +326,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- //customer -->
 	<!-- footer -->
 	<div class="footer">
@@ -304,7 +354,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<ul>
 					<li><a href="about.html">About</a></li>
 					<li><a href="menu.html">Menu</a></li>
-					<li><a href="codes.html">Codes</a></li>
 					<li><a href="news.html">News & Events</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>

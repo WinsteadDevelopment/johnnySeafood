@@ -1,0 +1,27 @@
+{
+  "name": "johnnysseafood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrestonWinstead/johnnySeafood.git"
+  },
+  "keywords": [],
+  "author": "Winstead Development",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrestonWinstead/johnnySeafood/issues"
+  },
+  "homepage": "https://github.com/PrestonWinstead/johnnySeafood#readme"
+}
