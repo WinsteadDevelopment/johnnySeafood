@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Tasty a Hotels and Restaurants Category Flat Bootstrap responsive Website Template | About :: w3layouts</title>
+<title>About Johnny's Seafood</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Tasty Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -41,7 +41,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="container">
 				<div class="header">
 					<div class="logo">
-						<h1><a href="index.html">Tasty</a></h1>
+						<h1><a href="index.html">Johnny's Seafood</a></h1>
 					</div>
 					<div class="top-nav">
 						<nav class="navbar navbar-default">
@@ -52,9 +52,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<ul class="nav navbar-nav">
 									<li><a href="index.html">Home</a></li>
 									<li><a class="active" href="about.html">About</a></li>
-									<li><a href="menu.html">Menu</a></li>
-									<li><a href="codes.html">Codes</a></li>	
-									<li><a href="news.html">News & Events</a></li>
+									<li id="menuLink"><a>Menu</a></li>
 									<li><a href="contact.html">Contact</a></li>
 									<div class="clearfix"> </div>
 								</ul>	
@@ -67,6 +65,42 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<!-- //banner -->
 	</div>
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+	
+		<!-- The Close Button -->
+		<span class="close">&times;</span>
+	
+		<!-- Modal Content (The Image) -->
+		<img class="modal-content" id="img01">
+	
+		<!-- Modal Caption (Image Text) -->
+		<div id="caption"></div>
+	</div>
+	
+	<script>
+		// Get the modal
+		var modal = document.getElementById('myModal');
+
+		// Get the image and insert it inside the modal - use its "alt" text as a caption
+		var menuLink = document.getElementById('menuLink');
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		menuLink.onclick = function () {
+			modal.style.display = "block";
+			modalImg.src = "./images/menuPicture.jpg";
+			captionText.innerHTML = "Our menu";
+		}
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function () {
+			modal.style.display = "none";
+		}
+	</script>
+
 	<!-- about -->
 	<div class="about">
 		<div class="container">
@@ -91,7 +125,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //about -->
 	<!-- offers -->
-	<div class="jarallax offers">
+	<!-- <div class="jarallax offers">
 		<div class="container">
 			<div class="offers-heading">
 				<h3>Our Offers</h3>
@@ -153,7 +187,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             imgWidth: 1366,
             imgHeight: 768
         })
-    </script>
+    </script> -->
 	<!-- offers -->
 	<!-- team -->
 	<div class="team">

@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Tasty a Hotels and Restaurants Category Flat Bootstrap responsive Website Template | Contact :: w3layouts</title>
+<title>Contact Johnny's Seafood</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Tasty Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -38,7 +38,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="container">
 				<div class="header">
 					<div class="logo">
-						<h1><a href="index.html">Tasty</a></h1>
+						<h1><a href="index.html">Johnny's Seafood</a></h1>
 					</div>
 					<div class="top-nav">
 						<nav class="navbar navbar-default">
@@ -49,9 +49,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<ul class="nav navbar-nav">
 									<li><a href="index.html">Home</a></li>
 									<li><a href="about.html">About</a></li>
-									<li><a href="menu.html">Menu</a></li>
-									<li><a href="codes.html">Codes</a></li>	
-									<li><a href="news.html">News & Events</a></li>
+									<li id="menuLink"><a>Menu</a></li>
 									<li><a class="active" href="contact.html">Contact</a></li>
 									<div class="clearfix"> </div>
 								</ul>	
@@ -64,15 +62,45 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<!-- //banner -->
 	</div>
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+		
+			<!-- The Close Button -->
+			<span class="close">&times;</span>
+		
+			<!-- Modal Content (The Image) -->
+			<img class="modal-content" id="img01">
+		
+			<!-- Modal Caption (Image Text) -->
+			<div id="caption"></div>
+		</div>
+		
+		<script>
+			// Get the modal
+			var modal = document.getElementById('myModal');
+
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var menuLink = document.getElementById('menuLink');
+			var modalImg = document.getElementById("img01");
+			var captionText = document.getElementById("caption");
+			menuLink.onclick = function () {
+				modal.style.display = "block";
+				modalImg.src = "./images/menuPicture.jpg";
+				captionText.innerHTML = "Our menu";
+			}
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function () {
+				modal.style.display = "none";
+			}
+		</script>
+
 	<!-- contact -->
 	<div class="contact-content">
 		<div class="container">
-			<div class="contact-heading">
-				<h2>Contact</h2>
-			</div>		
-			<div class="map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d158858.18237072596!2d-0.10159865000003898!3d51.52864165000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1436514341845" allowfullscreen=""></iframe>
-			</div>
 			<div class="contact-form">
 				<h3>Contact form</h3>
 				<form action="#" method="post">
@@ -84,120 +112,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</form>
 			</div>
 			<div class="contact-grids">
-				<h3 class="map">Our Branches</h3>
+				<!-- Location -->
+				<h3 class="map">Our Location</h3>
 				<div class="address-grids">
 					<div class="col-md-4 address-text">
 						<div class="address-grid">
-							<h5>10-43 Jack Road, 
-								<span>Glasgow, D-6 78GH</span>
+							<h5>5104 Lapalco Blvd., 
+								<span>Marrero, LA 70072</span>
 							</h5>
-							<div class="address-info">
-								<div class="address-info-left">
-									<p>Freephone :</p>
-								</div>
-								<div class="address-info-left address-info-right">
-									<p>+1 123 456 7890</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
 							<div class="address-info">
 								<div class="address-info-left">
 									<p>Telephone :</p>
 								</div>
 								<div class="address-info-left address-info-right">
-									<p>+1 123 456 7890</p>
+									<p>+1 (504) 349-3500</p>
 								</div>
 								<div class="clearfix"> </div>
 							</div>
 							<div class="address-info">
 								<div class="address-info-left">
-									<p>FAX :</p>
+									<p>Email :</p>
 								</div>
 								<div class="address-info-left address-info-right">
-									<p>+1 123 456 7890</p>
+									<p>email@email.com</p>
 								</div>
 								<div class="clearfix"> </div>
-							</div>
-								<div class="e-mail">
-									<p>E-mail : <a href="mailto:example@email.com">Example@mail.com</a></p>
-								</div>
-						</div>
-					</div>
-					<div class="col-md-4 address-text">
-						<div class="address-grid">
-							<h5>09-45 Mary Road, 
-								<span>London, J-9 09SD</span>
-							</h5>
-							<div class="address-info">
-								<div class="address-info-left">
-									<p>Freephone :</p>
-								</div>
-								<div class="address-info-left address-info-right">
-									<p>+1 123 456 7890</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="address-info">
-								<div class="address-info-left">
-									<p>Telephone :</p>
-								</div>
-								<div class="address-info-left address-info-right">
-									<p>+1 123 456 7890</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="address-info">
-								<div class="address-info-left">
-									<p>FAX :</p>
-								</div>
-								<div class="address-info-left address-info-right">
-									<p>+1 123 456 7890</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="e-mail">
-								<p>E-mail : <a href="mailto:example@email.com">Example@mail.com</a></p>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 address-text">
-						<div class="address-grid">
-							<h5>34-05 Shone Road, 
-								<span>Mexico, M-5 09SD</span>
-							</h5>
-							<div class="address-info">
-								<div class="address-info-left">
-									<p>Freephone :</p>
-								</div>
-								<div class="address-info-left address-info-right">
-									<p>+1 123 456 7890</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="address-info">
-								<div class="address-info-left">
-									<p>Telephone :</p>
-								</div>
-								<div class="address-info-left address-info-right">
-									<p>+1 123 456 7890</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="address-info">
-								<div class="address-info-left">
-									<p>FAX :</p>
-								</div>
-								<div class="address-info-left address-info-right">
-									<p>+1 123 456 7890</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="e-mail">
-								<p>E-mail : <a href="mailto:example@email.com">Example@mail.com</a></p>
-							</div>
-						</div>
-					</div>
+					<!-- Map -->
 					<div class="clearfix"> </div>
+					<div class="map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3459.600220137454!2d-90.10451718488395!3d29.875801233474494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a38f4ddbaf8f%3A0x8677c46ecc476a14!2sJohnny&#39;s+Seafood!5e0!3m2!1sen!2sus!4v1520463508076"
+						 width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
 				</div>
 			</div>
 		</div> 			
