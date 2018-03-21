@@ -51,7 +51,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<li><a href="about.html">About</a></li>
 									<li id="menuLink"><a>Menu</a></li>
 									<li>
-										<a href="news.html">Catering Services</a>
+										<a href="catering.html">Catering Services</a>
 									</li>
 									<li><a class="active" href="contact.html">Contact</a></li>
 									<div class="clearfix"> </div>
@@ -106,14 +106,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="contact-form">
 				<h3>Contact form</h3>
-				<form action="mailto:prestonwinstead@me.com" method="post">
-					<input type="text" name="Name" placeholder="Name" required="">
-					<input type="text" name="Email" placeholder="Email" required="">
-					<input type="text" name="Subject" placeholder="Subject" required="">
-					<textarea name="Message" placeholder="Message" required=""></textarea>
+				<form method="POST" action="https://formspree.io/prestonwinstead@me.com">
+					<input type="text" name="name" class="form-control" placeholder="Name" required="">
+					<input type="text" name="_replyto" class="form-control" placeholder="Email" required="">
+					<input type="text" name="_subject" class="form-control" placeholder="Subject" required="">
+					<textarea name="message" placeholder="Message" class="form-control" required=""></textarea>
 					<input type="submit" value="SEND">
 				</form>
-			</div>
 			<div class="contact-grids">
 				<!-- Location -->
 				<h3 class="map">Our Location</h3>
@@ -186,7 +185,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<a href="menu.html">Menu</a>
 					</li>
 					<li>
-						<a href="news.html">Catering ervices</a>
+						<a href="catering.html">Catering ervices</a>
 					</li>
 					<li>
 						<a href="contact.html">Contact</a>
