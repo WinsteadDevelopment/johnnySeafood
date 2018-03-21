@@ -594,7 +594,7 @@ i.fa.fa-twitter,i.fa.fa-facebook,i.fa.fa-google-plus,i.fa.fa-dribbble{
 /*-- //copyright --*/
 /*--Shortcodes--*/
 .bg-img{
-    background: url(../images/crawfish.jpg) no-repeat 0px -429px;
+    background: url(../images/crawfish2.jpg) no-repeat 0px -429px;
     background-size: cover;
 }
 .code-banner{
@@ -1642,7 +1642,7 @@ h2.typoh2{
 }
 @media (max-width:800px){
 	.bg-img {
-		background: url(../images/crawfish.jpg) no-repeat 0px -91px;
+		background: url(../images/crawfish2.jpg) no-repeat 0px -91px;
 		background-size: cover;
 	}
 }
@@ -1983,7 +1983,7 @@ h2.typoh2{
 		width: 80%;
 	}
 	.bg-img {
-		background: url(../images/crawfish.jpg) no-repeat 0px -83px;
+		background: url(../images/crawfish2.jpg) no-repeat 0px -83px;
 		background-size: cover;
 	}
 	.agileits-caption h4 {
@@ -2156,7 +2156,7 @@ h2.typoh2{
 		padding: 1em 0 1em;
 	}
 	.bg-img {
-		background: url(../images/crawfish.jpg) no-repeat 0px -64px;
+		background: url(../images/crawfish2.jpg) no-repeat 0px -64px;
 		background-size: cover;
 	}
 	.offers-left-heading h4 {
