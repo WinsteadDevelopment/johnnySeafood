@@ -8,6 +8,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	height: 7em;
 }
 
+#menuLink:hover {
+	cursor: pointer;
+}
+
 #myImg {
 	border-radius: 5px;
 	cursor: pointer;
@@ -105,7 +109,7 @@ html, body{
     padding: 1em 0 5em;
 }
 .header {
-    border-bottom: solid 1px rgba(134, 134, 134, 0.23);
+	border-bottom: solid 1px rgba(134, 134, 134, 0.23);
 }
 .logo{
 	float:left;
@@ -234,7 +238,7 @@ div#bs-example-navbar-collapse-1 {
 }
 .w3ls-special-img {
     padding: 0;
-    background: url(../images/s1.jpg) no-repeat -17px 0px;
+    background: url(../images/crawfish.jpg) no-repeat -17px 0px;
     min-height: 171px;
     background-size: cover;
     text-align: center;
@@ -270,23 +274,23 @@ div#bs-example-navbar-collapse-1 {
     margin: 1.5em 0 0 0;
 }
 .wthree-img{
-    background: url(../images/s2.jpg) no-repeat -35px 0px;
+    background: url(../images/fishBasket.jpg) no-repeat -35px 0px;
     background-size: cover;
 }
 .wthree-img1{
-    background: url(../images/s3.jpg) no-repeat -46px 0px;
+    background: url(../images/oysterPoboy.jpg) no-repeat -46px 0px;
     background-size: cover;	
 }
 .wthree-img2{
-    background: url(../images/s4.jpg) no-repeat -46px 0px;
+    background: url(../images/oysterBasket.jpg) no-repeat -46px 0px;
     background-size: cover;	
 }
 .wthree-img3{
-    background: url(../images/s5.jpg) no-repeat -46px 0px;
+    background: url(../images/shrimpBoil.jpg) no-repeat -46px 0px;
     background-size: cover;	
 }
 .wthree-img4{
-    background: url(../images/s6.jpg) no-repeat -46px 0px;
+    background: url(../images/coldFood.jpg) no-repeat -46px 0px;
     background-size: cover;	
 }
 .w3ls-special-text h4 {
@@ -533,7 +537,7 @@ i.fa.fa-users,i.fa.fa-asterisk,i.fa.fa-money,i.fa.fa-cog {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-i.fa.fa-twitter,i.fa.fa-facebook,i.fa.fa-google-plus,i.fa.fa-dribbble{
+i.fa.fa-twitter,i.fa.fa-facebook,i.fa.fa-google-plus,i.fa.fa-dribbble,i.fa.fa-envelope{
     color: #FFF;
     font-size: 1.5em;
 }
@@ -1548,30 +1552,30 @@ h2.typoh2{
 		width: 50%;
 		float: left;
 		min-height: 201px;
-		background: url(../images/s1.jpg) no-repeat -53px -195px;
+		background: url(../images/crawfish.jpg) no-repeat -53px -195px;
 	}
 	.agileits-special-info {
 		width: 50%;
 		float: left;
 	}
 	.wthree-img{
-		background: url(../images/s2.jpg) no-repeat 0px 0px;
+		background: url(../images/fishBasket.jpg) no-repeat 0px 0px;
 		background-size: cover;
 	}
 	.wthree-img1{
-		background: url(../images/s3.jpg) no-repeat 0px 0px;
+		background: url(../images/oysterPoboy.jpg) no-repeat 0px 0px;
 		background-size: cover;
 	}
 	.wthree-img2{
-		background: url(../images/s4.jpg) no-repeat 0px 0px;
+		background: url(../images/oysterBasket.jpg) no-repeat 0px 0px;
 		background-size: cover;	
 	}
 	.wthree-img3{
-		background: url(../images/s5.jpg) no-repeat 0px 0px;
+		background: url(../images/shrimpBoil.jpg) no-repeat 0px 0px;
 		background-size: cover;	
 	}
 	.wthree-img4{
-		background: url(../images/s6.jpg) no-repeat 0px 0px;
+		background: url(../images/coldFood.jpg) no-repeat 0px 0px;
 		background-size: cover;	
 	}
 	.agileits-special-info {
@@ -2031,27 +2035,27 @@ h2.typoh2{
 	}
 	.w3ls-special-img {
 		min-height: 218px;
-		background: url(../images/s1.jpg) no-repeat 0px 0px;
+		background: url(../images/crawfish.jpg) no-repeat 0px 0px;
 		background-size: cover;
 	}
 	.wthree-img{
-		background: url(../images/s2.jpg) no-repeat 0px 0px;
+		background: url(../images/fishBasket.jpg) no-repeat 0px 0px;
 		background-size: cover;
 	}
 	.wthree-img1{
-		background: url(../images/s3.jpg) no-repeat 0px 0px;
+		background: url(../images/oysterPoboy.jpg) no-repeat 0px 0px;
 		background-size: cover;
 	}
 	.wthree-img2{
-		background: url(../images/s4.jpg) no-repeat 0px 0px;
+		background: url(../images/oysterBasket.jpg) no-repeat 0px 0px;
 		background-size: cover;	
 	}
 	.wthree-img3{
-		background: url(../images/s5.jpg) no-repeat 0px 0px;
+		background: url(../images/shrimpBoil.jpg) no-repeat 0px 0px;
 		background-size: cover;	
 	}
 	.wthree-img4{
-		background: url(../images/s6.jpg) no-repeat 0px 0px;
+		background: url(../images/coldFood.jpg) no-repeat 0px 0px;
 		background-size: cover;	
 	}
 	.w3ls-special-text h4 {
