@@ -290,7 +290,7 @@ div#bs-example-navbar-collapse-1 {
     background-size: cover;	
 }
 .wthree-img4{
-    background: url(../images/coldFood.jpg) no-repeat -46px 0px;
+    background: url(../images/coldFood.JPG) no-repeat -46px 0px;
     background-size: cover;	
 }
 .w3ls-special-text h4 {
@@ -537,7 +537,7 @@ i.fa.fa-users,i.fa.fa-asterisk,i.fa.fa-money,i.fa.fa-cog {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-i.fa.fa-twitter,i.fa.fa-facebook,i.fa.fa-google-plus,i.fa.fa-dribbble,i.fa.fa-envelope{
+i.fa.fa-twitter,i.fa.fa-facebook,i.fa.fa-google-plus,i.fa.fa-dribbble,i.fa.fa-envelope,i.fa.fa-instagram{
     color: #FFF;
     font-size: 1.5em;
 }
@@ -553,6 +553,12 @@ i.fa.fa-twitter,i.fa.fa-facebook,i.fa.fa-google-plus,i.fa.fa-dribbble,i.fa.fa-en
 }
 .footer-icons  ul li a.facebook{
 	background:#3b5998;
+}
+.footer-icons  ul li a.instagram{
+	background:purple;
+}
+.footer-icons  ul li a.envelope{
+	background:red;
 }
 .footer-icons  ul li a.chrome{
 	background:#dc4e41;
@@ -1186,6 +1192,12 @@ h2.typoh2{
 .icons ul li a.facebook{
 	background:#3b5998;
 }
+.icons ul li a.instagram{
+	background:purple;
+}
+.icons ul li a.envelope{
+	background:red;
+}
 .icons  ul li a.chrome{
 	background:#dc4e41;
 }
@@ -1575,7 +1587,7 @@ h2.typoh2{
 		background-size: cover;	
 	}
 	.wthree-img4{
-		background: url(../images/coldFood.jpg) no-repeat 0px 0px;
+		background: url(../images/coldFood.JPG) no-repeat 0px 0px;
 		background-size: cover;	
 	}
 	.agileits-special-info {
@@ -2055,7 +2067,7 @@ h2.typoh2{
 		background-size: cover;	
 	}
 	.wthree-img4{
-		background: url(../images/coldFood.jpg) no-repeat 0px 0px;
+		background: url(../images/coldFood.JPG) no-repeat 0px 0px;
 		background-size: cover;	
 	}
 	.w3ls-special-text h4 {
