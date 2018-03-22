@@ -8,6 +8,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	height: 7em;
 }
 
+#menuLink:hover {
+	cursor: pointer;
+}
+
 #myImg {
 	border-radius: 5px;
 	cursor: pointer;
