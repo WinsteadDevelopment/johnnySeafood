@@ -37,7 +37,7 @@
 					</div>
 					<div class="top-nav">
 						<nav class="navbar navbar-default">
-								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Menu						
+								<button id="collapse-menu-button" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Menu						
 								</button>
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -109,6 +109,7 @@
 			var img = document.getElementById('foodMenu');
 			var modalImg = document.getElementById("img01");
 			var captionText = document.getElementById("caption");
+			const menuCollapse = document.getElementById('collapse-menu-button');
 			img.onclick = function () {
 				modal.style.display = "block";
 				modalImg.src = "./images/menuPicture.jpg";
@@ -131,6 +132,7 @@
 				modal.style.display = "block";
 				modalImg.src = "./images/menuPicture.jpg";
 				captionText.innerHTML = "Our menu";
+				$(".collapse").collapse('hide');
 			}
 
 			// Get the <span> element that closes the modal
